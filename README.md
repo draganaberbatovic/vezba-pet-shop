@@ -1,2 +1,1 @@
-# vezba-pet-shop
-pet-shop
+# foo

@@ -1,2 +1,2 @@
 # foo
-<a href="https://draganaberbatovic.github.io/pet-shop">vezba-pet-shop</a>
+<a href="https://draganaberbatovic.github.io/vezba-pet-shop">vezba-pet-shop</a>

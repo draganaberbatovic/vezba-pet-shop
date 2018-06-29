@@ -66,15 +66,24 @@ body {
   }
 }*/
 
-.container3 {
+/*.container3 {
   display: flex;
   flex-direction: column;
   max-width: 900px;
   margin: 0 auto;
-}
+}*/
 .images {
-  max-width: calc(100% / 3 - 8px);
-  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.images div {
+  width: calc(100% / 3 - 8px);
+}
+.fullimg,
+.images img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
 }
 .footer {
   height: 64px;

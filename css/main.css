@@ -56,23 +56,10 @@ body {
   width: 100%;
   border-radius: 5px;
 }
+.containerMaps { margin: 0 auto; }
 
-/*@media (max-width: 750px) {
+.textAdr {margin-left: 48px;}
 
-  .container {
-    flex-direction: column;
-  }
-  .animals {
-    width: 100%;
-  }
-}*/
-
-/*.container3 {
-  display: flex;
-  flex-direction: column;
-  max-width: 900px;
-  margin: 0 auto;
-}*/
 .images {
   display: flex;
   justify-content: space-between;
@@ -92,9 +79,19 @@ body {
   vertical-align: middle;
 }
 .footer {
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
   height: 64px;
   background-color: gray;
   color: #fff;
+}
+.svg svg {
+  height: 24px;
+  width: auto;
+  fill: #fff;
+  margin-left: 16px;
 }
 .icon-menu {
   display: none;
